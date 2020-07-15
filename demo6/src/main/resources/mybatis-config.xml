@@ -13,4 +13,7 @@
         <!--开启驼峰式命名转换：Table{create_time} -> Entity{createTime}-->
         <setting name="mapUnderscoreToCamelCase" value="true" />
     </settings>
+    <typeHandlers>
+        <package name="com.example.demo6.typehandler"/>
+    </typeHandlers>
 </configuration>
